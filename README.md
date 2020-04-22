@@ -17,7 +17,6 @@ cd blue
 docker build -t kubedemo:v1 src
 
 docker run -p 5000:80 kubedemo:v1
-docker container stop ...
 # open browser to localhost:5000
 docker container list
 docker container stop ... # <-- include container name
